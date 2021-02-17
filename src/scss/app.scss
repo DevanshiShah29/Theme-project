@@ -1,0 +1,15 @@
+@import './variables.scss';
+@import './popup.scss';
+@import './glass.scss';
+body{
+    background: var(--background);
+}
+p{
+    color:var(--text);
+}
+h1{
+    color:var(--main);
+}
+a{
+    color:var(--text);
+}
