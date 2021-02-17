@@ -1,0 +1,36 @@
+{
+  "name": "webpack-prod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server  --config webpack.dev.js --open --hot",
+    "build": "webpack  --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@webpack-cli/serve": "^1.1.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
